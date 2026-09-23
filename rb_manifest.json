@@ -1,0 +1,1321 @@
+{
+ "schema": "anc_manifest/1",
+ "tool": {
+  "name": "make_anc_manifest.py",
+  "version": "1.0",
+  "src": "03_poc/tools/make_anc_manifest.py"
+ },
+ "generated_at": "2026-09-22T13:10:59+00:00",
+ "provenance": {
+  "git_commit": "aa75da30008a7aa20482a7b7c9bf1baecb6a88bf",
+  "git_dirty": false,
+  "baseline_fp": "014d59a0d7b143ba",
+  "baseline_json": "03_poc/lib/L0_engine/baseline.json",
+  "engine_variant": "holm",
+  "engine_version": "v4",
+  "variant_env": "(unset = default)"
+ },
+ "scope": {
+  "appendix_d": false,
+  "n_figures": 15,
+  "n_bundled_files": 61
+ },
+ "figures": [
+  {
+   "script": "mkfig1.py",
+   "src": "figsrc/mkfig1.py",
+   "reads": [],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": true,
+   "sha256": "0fbfb8ee72988cf20669e5edc977d032856def638d5f7ce105adbea81c1a7f10",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig2.py",
+   "src": "figsrc/mkfig2.py",
+   "reads": [],
+   "helpers": [
+    "_branchfig.py"
+   ],
+   "concept_only": false,
+   "sha256": "6186ae6fd3e24804df724058f4a1a62cd1ed6af089e63545cceaddb8219853df",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig3.py",
+   "src": "figsrc/mkfig3.py",
+   "reads": [],
+   "helpers": [
+    "_branchfig.py"
+   ],
+   "concept_only": false,
+   "sha256": "ea34c6fed71321be5be349c172fa809eab20eed5d671163e56743ab2e41ecf15",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig4.py",
+   "src": "figsrc/mkfig4.py",
+   "reads": [],
+   "helpers": [
+    "_branchfig.py",
+    "_data.py"
+   ],
+   "concept_only": false,
+   "sha256": "ca859e85580c9cbe0d4861ac607e11d43a03ee2d7602e48915c628201331e18d",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig5.py",
+   "src": "figsrc/mkfig5.py",
+   "reads": [],
+   "helpers": [
+    "_data.py",
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "90d2ed2c358490fa134cdab7f4ce563bfb97a4782337f87322399a1ac6b5dfe9",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig6.py",
+   "src": "figsrc/mkfig6.py",
+   "reads": [],
+   "helpers": [
+    "_data.py",
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "a8ee2b0fba0c1102785849484bf1b20ee7d4c601bf2312eacba40aed6871fe01",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig7.py",
+   "src": "figsrc/mkfig7.py",
+   "reads": [
+    "results_t1.csv"
+   ],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "d3e835b37b52aeee5689f5db0cc39c3db83fe312de7c148929939b1b192bb9ef",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig8.py",
+   "src": "figsrc/mkfig8.py",
+   "reads": [],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": true,
+   "sha256": "2829e720686bfd003657e9766e66e97a09485c754a20fb5c8fc4ec03a4474711",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig9.py",
+   "src": "figsrc/mkfig9.py",
+   "reads": [
+    "results_f4_meta.csv",
+    "results_f4_theta_sweep.csv"
+   ],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "43b7f191c9ca47fbb31110519f1f273fd46df9ff73ddea4d90b25613d720b90f",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig10.py",
+   "src": "figsrc/mkfig10.py",
+   "reads": [],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": true,
+   "sha256": "c4fa0fa804bdfef814a7d1def366d6ec9aa4844e65654d1fe8ac0b523812dea8",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig11.py",
+   "src": "figsrc/mkfig11.py",
+   "reads": [
+    "results_s2_scaling.csv"
+   ],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "18322413cb0687e8ce0e81a15cb59a83831a013f3d8db175408dc7f418b6e45f",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig12.py",
+   "src": "figsrc/mkfig12.py",
+   "reads": [
+    "results_poc5_grid.csv"
+   ],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "ba8ccd1529053958b1a78808201ae12edad6cd561ee8d35aab18fa1482365b44",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig13.py",
+   "src": "figsrc/mkfig13.py",
+   "reads": [
+    "results_ensemble_theta.csv",
+    "results_y7_holdout.csv"
+   ],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "7de8bdec5caab40f7d3bca942000f0e9d96d0191c88cc425a6ca280106ea8bc3",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig14.py",
+   "src": "figsrc/mkfig14.py",
+   "reads": [
+    "results_d1_demo.csv",
+    "results_d1_edges.csv"
+   ],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": false,
+   "sha256": "f9764cad6cb92290b2eb1418128c9efa3d8944c7c9d78c21f570cf7c1c8bf23d",
+   "derived_from": [],
+   "strings_translated": 0
+  },
+  {
+   "script": "mkfig_b1.py",
+   "src": "figsrc/mkfig_b1.py",
+   "reads": [],
+   "helpers": [
+    "_paths.py",
+    "_pdffont.py"
+   ],
+   "concept_only": true,
+   "sha256": "5171efb3f3b070ddb1701e30efbe781c9ee23d25324163f39b137b6e5d413e51",
+   "derived_from": [],
+   "strings_translated": 0
+  }
+ ],
+ "figure_helpers": [
+  {
+   "script": "_branchfig.py",
+   "src": "figsrc/_branchfig.py",
+   "sha256": "1b31b399f6b76e75338903051bb60cf9d4ce74962f089d02ddce82bd4335b22f",
+   "strings_translated": 0
+  },
+  {
+   "script": "_data.py",
+   "src": "figsrc/_data.py",
+   "sha256": "6fbbd723c70148205eeb0c8a9b4f3e40f934c846efde0304c862d26c16d983e8",
+   "strings_translated": 0
+  },
+  {
+   "script": "_paths.py",
+   "src": "figsrc/_paths.py",
+   "sha256": "90adfb3fffc0e89fb96a21e097e0c7eab054d163181ba4a20b58a055c7bf0d65",
+   "strings_translated": 0
+  },
+  {
+   "script": "_pdffont.py",
+   "src": "figsrc/_pdffont.py",
+   "sha256": "91e179f1d4036239c72580a468c3834c0d189316abbd2bd456d777a49139df81",
+   "strings_translated": 0
+  }
+ ],
+ "data": [
+  {
+   "name": "results_d1_demo.csv",
+   "src": "03_poc/B_network_layer/D1_public_demo/results_d1_demo.csv",
+   "dst": "data/results_d1_demo.csv",
+   "sha256": "cc9cd29b10e621f267b642445d1cc9c1cf8364f0dede4f2559ae9ff05b83d8ee",
+   "bytes": 50835,
+   "role": "read",
+   "read_by": [
+    "mkfig14.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "1cfc05c5d4775dda329153c2ea544c44a77e567f8de997328dc519f6f7fd702c"
+  },
+  {
+   "name": "results_d1_edges.csv",
+   "src": "03_poc/B_network_layer/D1_public_demo/results_d1_edges.csv",
+   "dst": "data/results_d1_edges.csv",
+   "sha256": "3c8c0c63789ff856287c41b81c4f072e08a152b5122f8581383452ec63c6a347",
+   "bytes": 5983001,
+   "role": "read",
+   "read_by": [
+    "mkfig14.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "980a4ab1ea6d78b453dbd9a19cb2c82286aa4c0d42d09e04baa3560452f072d9"
+  },
+  {
+   "name": "results_ensemble_theta.csv",
+   "src": "03_poc/B_network_layer/E_ensemble/results_ensemble_theta.csv",
+   "dst": "data/results_ensemble_theta.csv",
+   "sha256": "a56c6d21387954a88978c6c7ee5057a4b1fddcc2d5509c39f3c9917116276c93",
+   "bytes": 64564,
+   "role": "read",
+   "read_by": [
+    "mkfig13.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "22a8a451a0de87760d33a55e2cc3f1085e247cbdb4a00e47350d000e174c4f68"
+  },
+  {
+   "name": "results_f4_meta.csv",
+   "src": "03_poc/B_network_layer/F4_theta_sweep/results_f4_meta.csv",
+   "dst": "data/results_f4_meta.csv",
+   "sha256": "bafc10bf7c3463c3403b485a164e7ac73d98274dd24fea435ce215fb9442f1d2",
+   "bytes": 1170,
+   "role": "read",
+   "read_by": [
+    "mkfig9.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "1f919922ed96bb746f34bf6898665f026fca2253c708a8aee5bea11b34d4f6ff"
+  },
+  {
+   "name": "results_f4_theta_sweep.csv",
+   "src": "03_poc/B_network_layer/F4_theta_sweep/results_f4_theta_sweep.csv",
+   "dst": "data/results_f4_theta_sweep.csv",
+   "sha256": "7aa823143d15fdcdc05791a3d3792b45618709751e44054f991dcdcf0875e82c",
+   "bytes": 173146,
+   "role": "read",
+   "read_by": [
+    "mkfig9.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "09d4fb9d7dbb0afecd82db12eaa5aa89b86f2b1d63acc2b0daec3969497c1def"
+  },
+  {
+   "name": "results_poc5_grid.csv",
+   "src": "03_poc/B_network_layer/PoC5_lattice_emt/results_poc5_grid.csv",
+   "dst": "data/results_poc5_grid.csv",
+   "sha256": "ad40f4cb8023e6a5facedc42b49d4045568f7cdad8e4179b3e91af9a8e98ed4e",
+   "bytes": 6394805,
+   "role": "read",
+   "read_by": [
+    "mkfig12.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "455e780d74966eec64025a4b48462732674166bd23f6946cb73e8524722da4d2"
+  },
+  {
+   "name": "results_s2_scaling.csv",
+   "src": "03_poc/B_network_layer/S2_scaling/results_s2_scaling.csv",
+   "dst": "data/results_s2_scaling.csv",
+   "sha256": "9adf85208fbac99c2a8d866ca60cb9f6889d66cacc575d6576b4d3dbc6582223",
+   "bytes": 18319,
+   "role": "read",
+   "read_by": [
+    "mkfig11.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "6bdfb511f11132c2ea2355eadd9748609e0e527b3dadaebedb02623c6c9946cb"
+  },
+  {
+   "name": "results_t1.csv",
+   "src": "03_poc/B_network_layer/T1_filtration_compare/results_t1.csv",
+   "dst": "data/results_t1.csv",
+   "sha256": "7975f6de51134fb84a6976d72e5b29bbbee24de8197efea8eaf520191d112f97",
+   "bytes": 31571,
+   "role": "read",
+   "read_by": [
+    "mkfig7.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "066d67f01c21175c0525d521f6d593925fbd6f357b3621de0089ce8a8202921e"
+  },
+  {
+   "name": "results_y7_holdout.csv",
+   "src": "03_poc/B_network_layer/E_ensemble/results_y7_holdout.csv",
+   "dst": "data/results_y7_holdout.csv",
+   "sha256": "5c0e324e59a7e808883a89cb5887d3f4d36f7aa53400cb807be24fa5f5d97e04",
+   "bytes": 21361,
+   "role": "read",
+   "read_by": [
+    "mkfig13.py"
+   ],
+   "derived_by": [],
+   "sha256_public": "1ffeb6a4c0dc62e50277336859ad9ca3e707709921325ff2125d8a70580c61ca"
+  },
+  {
+   "name": "family_definitions.csv",
+   "src": "03_poc/docs/23族の定義表.csv",
+   "dst": "data/family_definitions.csv",
+   "sha256": "a81b90ec4cb03dba5c7cea81d40eeddfc6f3cf9f461dd84e3e6cbac21cfcb1b7",
+   "bytes": 27788,
+   "role": "referenced-by-text",
+   "read_by": [],
+   "derived_by": [],
+   "renamed_from": "23族の定義表.csv",
+   "why": "the source of the values of Table C.2 (the footer of App. C points here)",
+   "sha256_public": "7c961353a68a520b6b3e888b68274f32c533c7c3d8c09e5f26287ff8444b5c44"
+  },
+  {
+   "name": "results_ensemble.csv",
+   "src": "03_poc/B_network_layer/E_ensemble/results_ensemble.csv",
+   "dst": "data/results_ensemble.csv",
+   "sha256": "0d6b31da8561a270f66414e7329a322aed340ae2a298e4bbac31a73b9841df60",
+   "bytes": 79227,
+   "role": "read-by-verification",
+   "read_by": [],
+   "derived_by": [],
+   "read_by_verification": [
+    "a1_closed_form.py"
+   ],
+   "sha256_public": "f8560ed32fc5dbcc7d07f71dad1cb718587e8553ded104a8126136ca69976d91"
+  }
+ ],
+ "thermal_network": [
+  {
+   "src": "03_poc/lib/L0_engine/baseline.json",
+   "dst": "thermal_network/L0_engine/baseline.json",
+   "sha256": "014d59a0d7b143baa10a028b4394e73fdd1d3690fa6b512e9050cf6b4e2039f0",
+   "bytes": 16897
+  },
+  {
+   "src": "03_poc/lib/L0_engine/baseline.py",
+   "dst": "thermal_network/L0_engine/baseline.py",
+   "sha256": "55df50f255e105452a146c3ff83fab9f598e0a686038fbab901bfa95e103187e",
+   "bytes": 13853,
+   "strings_translated": 24
+  },
+  {
+   "src": "03_poc/lib/L0_engine/persistence_distance.py",
+   "dst": "thermal_network/L0_engine/persistence_distance.py",
+   "sha256": "73a9b769a5b9daac325e93764a7b278c0a23cd043ac88337b5fbf939b69089f0",
+   "bytes": 5711,
+   "strings_translated": 0
+  },
+  {
+   "src": "03_poc/lib/L0_engine/selftest.py",
+   "dst": "thermal_network/L0_engine/selftest.py",
+   "sha256": "db474df566b98b295dd82ce775ab163b9fa0006b90f79efc0d7d6a1721073c3e",
+   "bytes": 35783,
+   "strings_translated": 76
+  },
+  {
+   "src": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "sha256": "df0b5b4c58af80c555c495080e9b4e71fc2e67187820d4dafafb40dd6dc68444",
+   "bytes": 149919,
+   "strings_translated": 66
+  },
+  {
+   "src": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "sha256": "2b8c97b1043065669e71734a9be460b09dc50768a1e2fe32bd3a24c67658e8aa",
+   "bytes": 21109,
+   "strings_translated": 45
+  },
+  {
+   "src": "03_poc/lib/L2_structures/ensemble.py",
+   "dst": "thermal_network/L2_structures/ensemble.py",
+   "sha256": "5bdae1e0c6bcba9e5db7fd02a383075e0a1d9561329bc161a5f626d5c8d6f409",
+   "bytes": 18393,
+   "strings_translated": 29
+  },
+  {
+   "src": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "sha256": "57c0104a92839f24321e651cd6cf75a3cfc9dd8f831231380196e0519a3a9b95",
+   "bytes": 7968,
+   "strings_translated": 1
+  },
+  {
+   "src": "03_poc/lib/L2_structures/lattice.py",
+   "dst": "thermal_network/L2_structures/lattice.py",
+   "sha256": "7c7f06719b609a167c244d779b63d8c0294dc3ed9d115791c4a14ebebbfae0d6",
+   "bytes": 10043,
+   "strings_translated": 7
+  },
+  {
+   "src": "03_poc/lib/L2_structures/synth_packing.py",
+   "dst": "thermal_network/L2_structures/synth_packing.py",
+   "sha256": "76f73e182a0e413bcb4664fc16cc4af538393df388667ffd906e2b13a1ee2b3f",
+   "bytes": 7457,
+   "strings_translated": 7
+  },
+  {
+   "src": "03_poc/lib/L3_metrics/quantities24.py",
+   "dst": "thermal_network/L3_metrics/quantities24.py",
+   "sha256": "1140afc0d6e868be7ecd1338aab2a9d8d2fbf7d1f2bbdeaf9fe8f58dd1ef498d",
+   "bytes": 26273,
+   "strings_translated": 52
+  },
+  {
+   "src": "03_poc/lib/_bootstrap.py",
+   "dst": "thermal_network/_bootstrap.py",
+   "sha256": "a7ce507bd560cf149eac198d12807a5ca73ceea96505948c64955fb016fc15d8",
+   "bytes": 14279,
+   "strings_translated": 3
+  },
+  {
+   "src": "03_poc/lib/_constants.py",
+   "dst": "thermal_network/_constants.py",
+   "sha256": "296153b199ce71a23ce83d43cda09bdbd35cff5b2a6a9ad7cc7a60ea0552c473",
+   "bytes": 2673,
+   "strings_translated": 0
+  }
+ ],
+ "verification": [
+  {
+   "id": "V4",
+   "title": "lattice homogenisation (full grid)",
+   "target": "verification/poc5_lattice_emt.py",
+   "src": "03_poc/B_network_layer/PoC5_lattice_emt/poc5_lattice_emt.py"
+  },
+  {
+   "id": "V5",
+   "title": "explicit-vertex expansion agreement",
+   "target": "verification/v5_explicit_vertex.py",
+   "src": "03_poc/B_network_layer/V5_explicit_vertex/v5_explicit_vertex.py"
+  },
+  {
+   "id": "V6",
+   "title": "saturation shift on/off ratio",
+   "target": "verification/size_sweep.py",
+   "src": "03_poc/B_network_layer/Z_size_sweep/size_sweep.py"
+  },
+  {
+   "id": "V7",
+   "title": "G_eff vs boundary flux",
+   "target": "verification/poc4a_identities.py",
+   "src": "03_poc/B_network_layer/PoC4a_identities/poc4a_identities.py"
+  },
+  {
+   "id": "V8",
+   "title": "dissipation sum = G_eff (N=900, 3,514 edges)",
+   "target": "verification/v89_log_sensitivity.py",
+   "src": "03_poc/B_network_layer/V8V9_log_sensitivity/v89_log_sensitivity.py"
+  },
+  {
+   "id": "V9",
+   "title": "dissipation share = log-sensitivity (central difference)",
+   "target": "verification/v89_log_sensitivity.py",
+   "src": "03_poc/B_network_layer/V8V9_log_sensitivity/v89_log_sensitivity.py"
+  },
+  {
+   "id": "V10",
+   "title": "first-order convergence",
+   "target": "verification/poc1_predictive_power.py",
+   "src": "03_poc/B_network_layer/PoC1_predictive_power/poc1_predictive_power.py"
+  },
+  {
+   "id": "V11",
+   "title": "exact finite-change formula vs re-solve",
+   "target": "verification/a1_closed_form.py",
+   "src": "03_poc/B_network_layer/A1_closed_form_ensemble/a1_closed_form.py"
+  },
+  {
+   "id": "V12",
+   "title": "size of first-order deviation (8 conditions)",
+   "target": "verification/poc1_predictive_power.py",
+   "src": "03_poc/B_network_layer/PoC1_predictive_power/poc1_predictive_power.py"
+  },
+  {
+   "id": "V13",
+   "title": "rank robustness to model/material uncertainty",
+   "target": "verification/poc6_robustness.py",
+   "src": "03_poc/B_network_layer/PoC6_robustness/poc6_robustness.py"
+  },
+  {
+   "id": "V14",
+   "title": "saturation of the finite surrogates",
+   "target": "verification/r48_ideal_saturation.py",
+   "src": "03_poc/B_network_layer/R48_ideal_saturation/r48_ideal_saturation.py"
+  },
+  {
+   "id": "V15",
+   "title": "non-separation of equal-G_eff pairs",
+   "target": "verification/y4_theta_separation.py",
+   "src": "03_poc/B_network_layer/Y4_theta_separation/y4_theta_separation.py"
+  },
+  {
+   "id": "V16",
+   "title": "spread of idealised gains on the same pairs",
+   "target": "verification/y4_theta_separation.py",
+   "src": "03_poc/B_network_layer/Y4_theta_separation/y4_theta_separation.py"
+  },
+  {
+   "id": "V17",
+   "title": "isothermal-node ratio R_in/R_out (sphere / fibre)",
+   "target": "verification/m7d_Rin_Rout.py",
+   "src": "03_poc/A_model_layer/M7_bond_definition/m7d_Rin_Rout.py"
+  },
+  {
+   "id": "V17",
+   "title": "contact area of a bead chain (geometry, 41%)",
+   "target": "verification/m7c_isothermal_test.py",
+   "src": "03_poc/A_model_layer/M7_bond_definition/m7c_isothermal_test.py"
+  },
+  {
+   "id": "V18",
+   "title": "edge order under treatment patchiness",
+   "target": "verification/x1_inscope_mix.py",
+   "src": "03_poc/B_network_layer/X1_inscope_mix/x1_inscope_mix.py"
+  },
+  {
+   "id": "V19",
+   "title": "stability bound vs d_B under edge-weight pert.",
+   "target": "verification/poc3_stability.py",
+   "src": "03_poc/B_network_layer/PoC3_stability/poc3_stability.py"
+  },
+  {
+   "id": "V19",
+   "title": "stability bound vs d_B under coordinate pert.",
+   "target": "verification/poc3c_fixed_complex.py",
+   "src": "03_poc/B_network_layer/PoC3_stability/poc3c_fixed_complex.py"
+  },
+  {
+   "id": "V20",
+   "title": "propagation of the R_c uncertainty to g_e and to the barcode",
+   "target": "verification/t3_pmat_bound.py",
+   "src": "03_poc/B_network_layer/PoC3_stability/t3_pmat_bound.py"
+  }
+ ],
+ "verification_files": [
+  {
+   "target": "a1_closed_form.py",
+   "src": "03_poc/B_network_layer/A1_closed_form_ensemble/a1_closed_form.py",
+   "sha256": "6197f60ef6aac30996c34761f1dab5518c28db9adc4a3a3b523cda736e31aa2f",
+   "strings_translated": 33
+  },
+  {
+   "target": "m7c_isothermal_test.py",
+   "src": "03_poc/A_model_layer/M7_bond_definition/m7c_isothermal_test.py",
+   "sha256": "b8ea28ef618f0e3d5f4ea3f0e462414223007bfc7592f6b1ce5778a8b6119d40",
+   "strings_translated": 15
+  },
+  {
+   "target": "m7d_Rin_Rout.py",
+   "src": "03_poc/A_model_layer/M7_bond_definition/m7d_Rin_Rout.py",
+   "sha256": "7eb3ab095676dd5112519e725ea898a1e55cfa3af694e39568945f2f4820b174",
+   "strings_translated": 12
+  },
+  {
+   "target": "poc1_predictive_power.py",
+   "src": "03_poc/B_network_layer/PoC1_predictive_power/poc1_predictive_power.py",
+   "sha256": "442309ef603cfc47b98e26142e4f02125afda01a6cc0fdde7c5f7d64d5e16e81",
+   "strings_translated": 39
+  },
+  {
+   "target": "poc3_stability.py",
+   "src": "03_poc/B_network_layer/PoC3_stability/poc3_stability.py",
+   "sha256": "cbfe2e22a25eb6dfdab5c11784ca3b253b466856979397d9f09afd5913ea15bc",
+   "strings_translated": 32
+  },
+  {
+   "target": "poc3c_fixed_complex.py",
+   "src": "03_poc/B_network_layer/PoC3_stability/poc3c_fixed_complex.py",
+   "sha256": "aed526ea0396e53d0e6a8869eafdc2bb5064270c5f9d93e256246d84a3c7bbf2",
+   "strings_translated": 19
+  },
+  {
+   "target": "poc4a_identities.py",
+   "src": "03_poc/B_network_layer/PoC4a_identities/poc4a_identities.py",
+   "sha256": "1cdc6dfa2834f2708d6a79a686535b23432f76bb2391e5662a6fa8cea111b4e0",
+   "strings_translated": 22
+  },
+  {
+   "target": "poc5_lattice_emt.py",
+   "src": "03_poc/B_network_layer/PoC5_lattice_emt/poc5_lattice_emt.py",
+   "sha256": "4782244a0041bafba2698cbbecfb2e012835c99c4aa36f88e65e8568f7f8107c",
+   "strings_translated": 134
+  },
+  {
+   "target": "poc6_robustness.py",
+   "src": "03_poc/B_network_layer/PoC6_robustness/poc6_robustness.py",
+   "sha256": "cd2fb7a94f341f3f22607e9b3c48b922b0cfe231c81b93c3e77cd2b6f92852e5",
+   "strings_translated": 85
+  },
+  {
+   "target": "r48_ideal_saturation.py",
+   "src": "03_poc/B_network_layer/R48_ideal_saturation/r48_ideal_saturation.py",
+   "sha256": "c5fd078ce884a4af65e9fc7fb22119f35adf591799ef0679ada5873afe58d4ad",
+   "strings_translated": 13
+  },
+  {
+   "target": "size_sweep.py",
+   "src": "03_poc/B_network_layer/Z_size_sweep/size_sweep.py",
+   "sha256": "7315f7e703dd500d1d1d784cef4028d024f738502b46515a9c1c5d9ada59cc93",
+   "strings_translated": 51
+  },
+  {
+   "target": "t1_filtration_compare.py",
+   "src": "03_poc/B_network_layer/T1_filtration_compare/t1_filtration_compare.py",
+   "sha256": "8382fb6da59de0ec87667822ba2e633964dbce4d099248586106e4a0488f6e70",
+   "strings_translated": 64
+  },
+  {
+   "target": "t3_pmat_bound.py",
+   "src": "03_poc/B_network_layer/PoC3_stability/t3_pmat_bound.py",
+   "sha256": "ef2e3b8922eb4ee27b6c04e5633aea8eb708bb24d4140ebe3fb9edb1121686c3",
+   "strings_translated": 29
+  },
+  {
+   "target": "v5_explicit_vertex.py",
+   "src": "03_poc/B_network_layer/V5_explicit_vertex/v5_explicit_vertex.py",
+   "sha256": "5f8ca31ee08ce23a99dd1213054386ad32e37a9a153de6d05884e93a42221f15",
+   "strings_translated": 21
+  },
+  {
+   "target": "v89_log_sensitivity.py",
+   "src": "03_poc/B_network_layer/V8V9_log_sensitivity/v89_log_sensitivity.py",
+   "sha256": "463cc816e0481dc30374058b776c157db222801cb5fe72c7054d27756ba2471d",
+   "strings_translated": 0
+  },
+  {
+   "target": "x1_inscope_mix.py",
+   "src": "03_poc/B_network_layer/X1_inscope_mix/x1_inscope_mix.py",
+   "sha256": "0dbbaeb82d7d668faf4c07bea285cd993e6d6c70f3ff6ec6b269ed1ca9571b12",
+   "strings_translated": 18
+  },
+  {
+   "target": "y4_theta_separation.py",
+   "src": "03_poc/B_network_layer/Y4_theta_separation/y4_theta_separation.py",
+   "sha256": "36770bd7ea246df37c7d47a7515df1caad9d01d74d8295b6afe72d9f99463430",
+   "strings_translated": 58
+  }
+ ],
+ "not_bundled": [
+  {
+   "file": "family_notes.py",
+   "reason": "internal research notes on the purpose of each structure family (not part of the paper)"
+  },
+  {
+   "file": "q24_guidance.py",
+   "reason": "formulation-design guidance for the 24 quantities (internal; not part of the paper)"
+  }
+ ],
+ "unresolved": [],
+ "sanitize_leftovers": [],
+ "omitted": [
+  {
+   "file": "03_poc/lib/L0_engine/baseline.py",
+   "dst": "thermal_network/L0_engine/baseline.py",
+   "name": "import np",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "import Path",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "import plt",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "import japanize_matplotlib",
+   "lines": 4,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "import eigsh",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "_BOND_TABLE_CACHE",
+   "lines": 1,
+   "reason": "cache of the omitted _bond_table"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "_bond_table",
+   "lines": 16,
+   "reason": "unused helper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "load_last_frame_with_types",
+   "lines": 43,
+   "reason": "LAMMPS dump reader; the paper uses synthetic packings only"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "heat_proxy_map",
+   "lines": 7,
+   "reason": "heat-source proxy of run_all / Phase 2; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "betti_numbers",
+   "lines": 7,
+   "reason": "beta_0/beta_1 counter of run_all; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "lambda_min_grounded",
+   "lines": 18,
+   "reason": "exploratory spectral diagnostic of run_all; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "grounded_slow_mode",
+   "lines": 12,
+   "reason": "exploratory slow-mode diagnostic; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "node_sink_theta",
+   "lines": 35,
+   "reason": "helper of risk_table; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "risk_table",
+   "lines": 60,
+   "reason": "exploratory stagnation score; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "jet_weak_modes",
+   "lines": 59,
+   "reason": "Phase-2 jet sheaf; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "jet_weak_modes_all",
+   "lines": 27,
+   "reason": "exploratory jet-sheaf diagnostic; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "kirchhoff_index",
+   "lines": 4,
+   "reason": "unused helper (the dict key of the same name in edge_redundancy is unrelated)"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "run_all",
+   "lines": 161,
+   "reason": "end-to-end pipeline for a LAMMPS dump; not used by the figures or verification scripts"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "plot_summary",
+   "lines": 33,
+   "reason": "plotting helper of run_all; the paper's figures are drawn by figures/*.py"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "plot_network_2d",
+   "lines": 84,
+   "reason": "plotting helper of run_all"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "_draw_zvis_ax",
+   "lines": 33,
+   "reason": "plotting helper of run_all"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "plot_showcase",
+   "lines": 39,
+   "reason": "plotting helper of run_all"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "type_summary",
+   "lines": 36,
+   "reason": "per-type summary table of run_all; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "plot_type_summary",
+   "lines": 22,
+   "reason": "plotting helper of run_all"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "BlockSheaf",
+   "lines": 44,
+   "reason": "Phase-2 jet sheaf; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "build_jet_sheaf",
+   "lines": 24,
+   "reason": "Phase-2 jet sheaf; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "kron_reduction",
+   "lines": 67,
+   "reason": "Phase-2 cluster conduction tensor; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "cluster_conduction_tensor",
+   "lines": 43,
+   "reason": "Phase-2 cluster conduction tensor; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "phase2_component_table",
+   "lines": 23,
+   "reason": "Phase-2 sweep; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "component_sweep",
+   "lines": 79,
+   "reason": "Phase-2 sweep; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "cluster_census",
+   "lines": 31,
+   "reason": "Phase-2 sweep; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "plot_cluster_census",
+   "lines": 26,
+   "reason": "plotting helper of run_all"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "z_visibility_sweep",
+   "lines": 20,
+   "reason": "exploratory sweep of run_all; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "plot_z_visibility",
+   "lines": 66,
+   "reason": "plotting helper of run_all"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "main",
+   "lines": 3,
+   "reason": "command-line entry of the pipeline; not used"
+  },
+  {
+   "file": "03_poc/lib/L0_engine/thermal_sheaf_filtration.py",
+   "dst": "thermal_network/L0_engine/thermal_sheaf_filtration.py",
+   "name": "__main__",
+   "lines": 2,
+   "reason": "module command-line block (`if __name__ == \"__main__\"`); no entry point in this record"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "import np",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "RHO_TRUE",
+   "lines": 5,
+   "reason": "true density table of the omitted BET helpers"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "d_bet_um",
+   "lines": 3,
+   "reason": "BET surface-area helper; the roughness model is disabled in the paper"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "roughness_factor",
+   "lines": 3,
+   "reason": "BET roughness helper; disabled in the paper"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "roughness_sigma_um",
+   "lines": 4,
+   "reason": "BET roughness helper; disabled in the paper"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "BET_TYPICAL",
+   "lines": 8,
+   "reason": "BET range table of the omitted BET helpers"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "LIT_RANGE",
+   "lines": 23,
+   "reason": "literature-range table of the omitted lit_* helpers"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "PROBE_RANGE",
+   "lines": 6,
+   "reason": "probing-range table; not used"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "PHYSICAL_BRACKET",
+   "lines": 7,
+   "reason": "bracket table; not used"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "lit_span_decades",
+   "lines": 4,
+   "reason": "literature-range helper; not used"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "lit_sample",
+   "lines": 6,
+   "reason": "literature-range sampler; not used"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "D_EQUIV_UM",
+   "lines": 1,
+   "reason": "unused constant"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "print_provenance",
+   "lines": 30,
+   "reason": "command-line listing of the literature sources; not used"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "__main__",
+   "lines": 12,
+   "reason": "module command-line block (`if __name__ == \"__main__\"`); no entry point in this record"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "YOUNG_GPA",
+   "lines": 8,
+   "reason": "Young's moduli of the omitted Hertz helpers"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "POISSON",
+   "lines": 8,
+   "reason": "Poisson ratios of the omitted Hertz helpers"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "e_star_pa",
+   "lines": 8,
+   "reason": "Hertz contact mechanics helper; the paper takes the overlap from the coordinates"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "hertz_overlap_um",
+   "lines": 16,
+   "reason": "Hertz contact mechanics helper; not used"
+  },
+  {
+   "file": "03_poc/lib/L1_materials/materials_real.py",
+   "dst": "thermal_network/L1_materials/materials_real.py",
+   "name": "sigma_from_overlap_pa",
+   "lines": 8,
+   "reason": "Hertz contact mechanics helper; not used"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/ensemble.py",
+   "dst": "thermal_network/L2_structures/ensemble.py",
+   "name": "HIGH_PHI",
+   "lines": 2,
+   "reason": "unused family subset"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/ensemble.py",
+   "dst": "thermal_network/L2_structures/ensemble.py",
+   "name": "GRADIENT_FAMILIES",
+   "lines": 3,
+   "reason": "unused family subset"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/ensemble.py",
+   "dst": "thermal_network/L2_structures/ensemble.py",
+   "name": "GRADIENT_STRENGTH",
+   "lines": 4,
+   "reason": "unused table"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/ensemble.py",
+   "dst": "thermal_network/L2_structures/ensemble.py",
+   "name": "GRADIENT_KIND",
+   "lines": 5,
+   "reason": "unused table"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "import matplotlib",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "matplotlib.use('Agg')",
+   "lines": 1,
+   "reason": "statement used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "import plt",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "import lil_matrix,csr_matrix",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "import spsolve",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "import tsf",
+   "lines": 1,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "import Material,MaterialTable,AnalysisConfig,SOURCE_NODE,SINK_NODE",
+   "lines": 2,
+   "reason": "import used only by omitted definitions"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "scalar_temperature",
+   "lines": 5,
+   "reason": "flux-field prototype; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "naive_gradient",
+   "lines": 26,
+   "reason": "flux-field prototype; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "jet_gradient",
+   "lines": 31,
+   "reason": "flux-field prototype; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/fluxfield.py",
+   "dst": "thermal_network/L2_structures/fluxfield.py",
+   "name": "residual_report",
+   "lines": 15,
+   "reason": "flux-field prototype; not part of the paper"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/lattice.py",
+   "dst": "thermal_network/L2_structures/lattice.py",
+   "name": "nn_gap",
+   "lines": 4,
+   "reason": "unused helper"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/lattice.py",
+   "dst": "thermal_network/L2_structures/lattice.py",
+   "name": "bob_pair",
+   "lines": 7,
+   "reason": "unused demo helper"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/synth_packing.py",
+   "dst": "thermal_network/L2_structures/synth_packing.py",
+   "name": "D_GRID_UM",
+   "lines": 1,
+   "reason": "grid of the omitted command-line demo"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/synth_packing.py",
+   "dst": "thermal_network/L2_structures/synth_packing.py",
+   "name": "summary_row",
+   "lines": 11,
+   "reason": "demo helper of the module's command line; not used"
+  },
+  {
+   "file": "03_poc/lib/L2_structures/synth_packing.py",
+   "dst": "thermal_network/L2_structures/synth_packing.py",
+   "name": "__main__",
+   "lines": 21,
+   "reason": "module command-line block (`if __name__ == \"__main__\"`); no entry point in this record"
+  },
+  {
+   "file": "03_poc/lib/L3_metrics/quantities24.py",
+   "dst": "thermal_network/L3_metrics/quantities24.py",
+   "name": "schema",
+   "lines": 3,
+   "reason": "unused accessor"
+  },
+  {
+   "file": "03_poc/lib/L3_metrics/quantities24.py",
+   "dst": "thermal_network/L3_metrics/quantities24.py",
+   "name": "to_frame",
+   "lines": 7,
+   "reason": "unused DataFrame conversion"
+  },
+  {
+   "file": "03_poc/lib/L3_metrics/quantities24.py",
+   "dst": "thermal_network/L3_metrics/quantities24.py",
+   "name": "_print_schema",
+   "lines": 21,
+   "reason": "command-line listing of the 24 quantities; not used"
+  },
+  {
+   "file": "03_poc/lib/L3_metrics/quantities24.py",
+   "dst": "thermal_network/L3_metrics/quantities24.py",
+   "name": "_print_schema_csv",
+   "lines": 6,
+   "reason": "command-line listing; not used"
+  },
+  {
+   "file": "03_poc/lib/L3_metrics/quantities24.py",
+   "dst": "thermal_network/L3_metrics/quantities24.py",
+   "name": "_selftest",
+   "lines": 22,
+   "reason": "module-level self-test of the command line; the package self-test is selftest.py"
+  },
+  {
+   "file": "03_poc/lib/L3_metrics/quantities24.py",
+   "dst": "thermal_network/L3_metrics/quantities24.py",
+   "name": "__main__",
+   "lines": 9,
+   "reason": "module command-line block (`if __name__ == \"__main__\"`); no entry point in this record"
+  },
+  {
+   "file": "03_poc/lib/_bootstrap.py",
+   "dst": "thermal_network/_bootstrap.py",
+   "name": "layers_report",
+   "lines": 7,
+   "reason": "command-line report; not used"
+  },
+  {
+   "file": "03_poc/lib/_bootstrap.py",
+   "dst": "thermal_network/_bootstrap.py",
+   "name": "__main__",
+   "lines": 2,
+   "reason": "module command-line block (`if __name__ == \"__main__\"`); no entry point in this record"
+  },
+  {
+   "file": "figsrc/mkfig14.py",
+   "dst": "figures/mkfig14.py",
+   "name": "short",
+   "lines": 2,
+   "reason": "unused local helper"
+  }
+ ]
+}

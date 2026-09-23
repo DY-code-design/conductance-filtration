@@ -1,0 +1,2 @@
+family,d_um,seed,filler,matrix,treat,phi,n_particle,n_edge,theta_star_percolation,g_star_percolation,crit_edge_u,crit_edge_v,G_eff_full,eta_cut,slab_axis,slab_frac,n_theta,engine_version,engine_variant,baseline_fp
+phi_060,20.0,0,AlN,epoxy,untreated,0.6000000000000005,900,3514,3.338903648237606,0.0004582435404935482,107,242,0.0033756716493647224,1.0,2,0.06,200,v4,holm,014d59a0d7b143ba

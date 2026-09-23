@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below.
+type: software
+title: >-
+  The conductance filtration: sink-relative persistence and exact edge sensitivity for heat transport in particle-filled composites
+version: v1.0.0
+license: MIT
+authors:
+  - family-names: Yasufuku
+    given-names: Daisuke
+    affiliation: U-MAP Co., Ltd.
+    orcid: https://orcid.org/0009-0008-6555-5724
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22898126
+    description: >-
+      This software record (version DOI, reserved on Zenodo before
+      publication; it resolves once the record is published).
+references:
+  - type: article
+    title: >-
+      The conductance filtration: sink-relative persistence and exact edge sensitivity for heat transport in particle-filled composites
+    authors:
+      - family-names: Yasufuku
+        given-names: Daisuke
+        orcid: https://orcid.org/0009-0008-6555-5724
+    doi: 10.5281/zenodo.22760047
+    notes: >-
+      Japanese version of the paper (concept DOI: it always resolves
+      to the latest version).
+# --- provenance of this snapshot ------------------------------------
+# git commit     : aa75da30008a7aa20482a7b7c9bf1baecb6a88bf
+# engine version : v4
+# engine variant : holm
+# baseline fp    : 014d59a0d7b143ba

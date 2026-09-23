@@ -1,0 +1,7 @@
+# Python packages actually used to produce the bundled results.
+# Pinned to the versions the authors ran; newer minor versions are expected to work.
+numpy>=1.24
+scipy>=1.10
+networkx>=3.0
+pandas>=2.0
+matplotlib>=3.7
